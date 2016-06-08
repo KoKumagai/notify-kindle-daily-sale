@@ -1,0 +1,28 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    args_parser (0.2.0)
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    im-kayac (0.1.2)
+      args_parser
+      httparty
+      json
+    json (1.8.3)
+    mini_portile2 (2.1.0)
+    multi_xml (0.5.5)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    pkg-config (1.1.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  im-kayac
+  nokogiri
+
+BUNDLED WITH
+   1.12.5
