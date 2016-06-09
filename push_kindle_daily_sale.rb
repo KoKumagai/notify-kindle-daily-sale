@@ -5,7 +5,7 @@ require 'im-kayac'
 USERNAME = ENV['IM_KAYAC_USERNAME'].freeze
 PASSWORD = ENV['IM_KAYAC_PASSWORD'].freeze
 
-URL = 'http://www.amazon.co.jp/b?_encoding=UTF8&node=3338926051'.freeze
+URL = 'https://www.amazon.co.jp/b?_encoding=UTF8&node=3338926051'.freeze
 
 def make_message_from(doc)
   title = doc.xpath('//h3').text
